@@ -8,7 +8,7 @@ module.exports = function(obj, ...props) {
     // if property is blank or doesn't exist, add to errors array
     if (obj[prop] === undefined || obj[prop] === '') {
       errors.push(`No ${prop} specified.`);
-    }
+    } 
   });
 
   if (errors.length) {
