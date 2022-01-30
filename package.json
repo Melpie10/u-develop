@@ -1,7 +1,7 @@
 {
   "name": "__tests__",
   "version": "1.0.0",
-  "description": "",
+  "description": "first try",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -16,5 +16,13 @@
   },
   "devDependencies": {
     "jest": "^27.4.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melpie10/u-develop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Melpie10/u-develop/issues"
+  },
+  "homepage": "https://github.com/Melpie10/u-develop#readme"
 }
