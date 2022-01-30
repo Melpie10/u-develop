@@ -14,7 +14,7 @@ module.exports = function(obj, ...props) {
   if (errors.length) {
     return {
       error: errors.join(' ')
-    };
+    }; 
   }
   
   return null;
