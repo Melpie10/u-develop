@@ -13,6 +13,7 @@ const db = mysql.createConnection(
 {
 host: 'localhost',
   // Your MySQL username,
+  
 user: 'root',
 // Your MySQL password
 password: 'Melany10!',
@@ -24,6 +25,12 @@ console.log('Connected to the election database.')
 // Default response for any other request (Not Found)
 app.use((req, res) => {
     res.status(404).end();
+});
+
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Hello World'
+  });
 });
 
 app.listen(PORT, () => {
